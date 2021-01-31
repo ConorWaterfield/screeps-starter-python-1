@@ -26,7 +26,7 @@ def main():
     for name in Object.keys(Game.creeps):
         creep = Game.creeps[name]
         harvester.run_harvester(creep)
-        print("Test")
+        print("New Test")
 
     # Run each spawn
     for name in Object.keys(Game.spawns):
